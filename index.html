@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faddy's porttfolio</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        background-color: rgb(1, 1, 38);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(4, 4, 63);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 30px
+    }
+
+    nav ul li a {
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(225, 22, 225);
+    }
+
+    main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+    }
+
+
+    .left {
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .right {
+        color: white;
+        font-size: 0.9rem;
+
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 90px 0px;
+    }
+
+    .firstsection>div {
+        width: 42%;
+    }
+
+
+
+    .leftsection {
+        font-size: 1.5rem;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .leftsection .button {
+        color: white;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+        background: #1c0b2c;
+        padding: 15px;
+        margin: 50px 10px;
+    }
+
+    img {
+        height: 70%;
+        width: 50%;
+        margin: 40px 107px;
+    }
+
+    #element {
+        color: rgb(225, 22, 225);
+    }
+
+
+    .purple {
+        color: rgb(225, 22, 225);
+    }
+
+    .secondsection {
+        margin: auto;
+        max-width: 70vw;
+        height: 72vh;
+    }
+
+
+    .secondsection h1 {
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .secondsection .textgray {
+        color: gray;
+    }
+
+    .secondsection .box {
+        background: white;
+        width: 73vw;
+        height: 2.3px;
+        margin: 80px 0px;
+        display: flex;
+    }
+
+    .secondsection .vertical {
+        height: 95px;
+        width: 2px;
+        background-color: white;
+        margin: 0 9vw;
+    }
+
+    .image-top {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin-top: -62px;
+        margin-left: -18px;
+    }
+
+
+    .vertical-title {
+        position: relative;
+        top: 90px;
+        width: 200px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .footer {
+        background-color: rgb(3, 3, 49);
+        height: 40px;
+        color: gray;
+        padding: 10px 10px;
+        justify-content: center;
+    }
+
+    @media screen and (max-width:950px) {
+
+        img {
+
+            height: 70%;
+            width: 50%;
+            margin: 0px 200px;
+        }
+
+        .leftsection .button {
+            margin: 15px 0px;
+        }
+
+        .box {
+            flex-direction: column;
+        }
+
+        .secondsection .vertical {
+            height: unset;
+        }
+
+        .vertical-title,
+        .vertical-desc {
+            left: 45px;
+        }
+
+        .firstsection {
+            flex-direction: column-reverse;
+        }
+
+        .leftsection {
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rightsection {
+            width: 721px !important;
+            display: flex;
+        }
+
+        .rightsection {
+            width: 45vw;
+            margin-bottom: 73px;
+        }
+
+        .secondsection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 99vh;
+            align-items: center;
+        }
+
+        .image-top {
+            top: 172px;
+        }
+
+}
+@media screen and (max-width:725px){
+body{
+width: max-content;
+  }
+  .secondsection{
+    height: 160vh;
+  }
+
+
+
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Faddy's portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">contact Me</a></li>
+                    <li><a href="">services</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div> Hi , My name is</div> <span class="purple">Faddy</span>
+                <div>and i am a passionate </div>
+                <span id="element"></span><br>
+                <button class="button"> DOWNLOAD RESUME </button>
+                <button class="button"> GITHUB </button>
+
+            </div>
+
+            <div class="rightsection">
+                <img src="png.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">What i have done so far </span>
+            <h1><b>Experience .in </b></h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="htmllogo.png">
+                    <div class="vertical-title">HTML DEVELOPER<br>(2021 start - 2021 end)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
+                        praesentium tempore quaerat voluptas at tempora, ut expedita illum esse nostrum blanditiis omnis
+                        cum
+                        rem laudantium unde optio iste suscipit cumque.
+                    </div>
+                </div>
+                <div class="vertical"> <img class="image-top" src="csslogo.png">
+                    <div class="vertical-title">CSS DEVELOPER<br>(2022 start - 2022 end)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                        nostrum, dolores ullam dolore eum at ea iste odio optio quod itaque, soluta pariatur.
+                        Voluptas
+                        reprehenderit maiores cum quisquam laborum id.</div>
+                </div>
+                <div class="vertical"> <img class="image-top" src="js.jpg">
+                    <div class="vertical-title">JS DEVELOPER<br>(2023 start-Till now )</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                        nostrum, dolores ullam dolore eum at ea iste odio optio quod itaque, soluta pariatur.
+                        Voluptas
+                        reprehenderit maiores cum quisquam laborum id.</div>
+                </div>
+                <div class="vertical"> <img class="image-top" src="nodejs.jpg">
+                    <div class="vertical-title">NODE.js DEVELOPER<br>(Just start)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                        nostrum, dolores ullam dolore eum at ea iste odio optio quod itaque, soluta pariatur.
+                        Voluptas
+                        reprehenderit maiores cum quisquam laborum id.</div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+    </main>
+    <footer>
+        <center>
+            <div class="footer"> copyright&#169; faddysportfolio.com | All rights reserved</div>
+        </center>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['HTML developer.', 'CSS Developer.', 'JS Developer.', 'More to come'],
+        typeSpeed: 50,
+    });
+</script>
+
+</html>
