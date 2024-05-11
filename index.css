@@ -1,0 +1,590 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+body {
+    background-color: rgb(1, 1, 38);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav {
+    position: sticky;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 63);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 30px
+}
+
+nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.left:hover {
+    color: rgb(225, 22, 225);
+}
+
+nav ul li a:hover {
+    color: rgb(225, 22, 225);
+}
+
+.lines {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 50px 85px;
+}
+
+.left {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.left:hover {
+    color: rgb(225, 22, 225);
+    cursor: pointer;
+}
+
+.right {
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0px;
+}
+
+
+
+.leftsection {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.leftsection .button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #1c0b2c;
+    padding: 15px;
+    margin: 50px 10px;
+}
+
+.web {
+    height: 70%;
+    width: 50%;
+    margin: 40px 107px;
+    border-radius: 30px;
+}
+
+#element {
+    color: rgb(225, 22, 225);
+}
+
+
+.purple {
+    color: rgb(225, 22, 225);
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 70vw;
+    height: 58vh;
+}
+
+
+.secondsection h1 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondsection .textgray {
+    color: gray;
+}
+
+.secondsection .box {
+    background: white;
+    width: 73vw;
+    height: 2.3px;
+    margin: 80px 0px;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 95px;
+    width: 2px;
+    background-color: white;
+    margin: 0 9vw;
+}
+
+.image-top {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-top: -62px;
+    margin-left: -18px;
+}
+
+
+.vertical-title {
+    position: relative;
+    top: 90px;
+    width: 200px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 100px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+
+.footer {
+    background-color: rgb(3, 3, 49);
+    height: 40px;
+    color: gray;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.thirdsection {
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+    text-decoration: 2px underline;
+}
+
+form {
+    margin: 0px auto;
+    width: 30%;
+    background-color: rgb(1, 1, 38);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #cccccc;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    /* Underline style */
+    background-color: transparent;
+    /* Transparent background */
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    transition: border-bottom-color 0.3s;
+    /* Smooth transition for underline color */
+}
+
+input:focus {
+    border-bottom-color: #cccccc;
+    /* Change underline color on focus */
+}
+
+input[type="submit"] {
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(3, 3, 49);
+    width: 105px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c0b2c;
+}
+
+.forthsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-family: 'popins' sans-serif;
+    padding: 20px;
+}
+
+.paras {
+    padding: 0px 65px;
+    text-align: center;
+}
+
+.project {
+    cursor: pointer;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.text-big {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.text-small {
+    font-size: 15px;
+}
+
+
+.icons {
+    width: 25px;
+    /* Adjust the size as needed */
+    height: 25px;
+    /* Adjust the size as needed */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    /* Add a smooth transition effect */
+
+    /* Add additional styling as per your preference */
+    border-radius: 20%;
+    border: 2px solid #cccccc;
+    margin: -8px 10px;
+}
+
+/* Add hover effect for better user interaction */
+.social-icon:hover {
+    transform: scale(1.1);
+    /* Increase size on hover */
+}
+
+footer {
+    font-size: 13px;
+    display: flex;
+    background-color: rgb(3, 3, 49);
+    height: 40px;
+    color: gray;
+    padding: 10px 10px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+
+
+
+@media (max-width:1200px) {
+
+
+    /* .firstsection {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    } */
+
+    .leftsection {
+        font-size: 1.6rem;
+    }
+
+    .leftsection .button {
+        font-size: 17px;
+        margin: 35px 10px;
+
+    }
+
+
+    .vertical-title {
+        font-size: 12px;
+        width: 140px;
+    }
+    .secondsection {
+        height: 70vh;
+
+    }
+    .secondsection .box {
+        margin-left: -40px;
+        width: 75vw;
+    }
+
+
+    .secondsection .vertical {
+        height: 95px;
+        width: 2px;
+        background-color: white;
+        margin: 0px 10vw;
+    }
+
+    .project {
+        width: 37%;
+    }
+
+    .text-big {
+        font-size: 25px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+}
+@media (max-width:1100px){
+    .secondsection{
+        height: 35vh;
+    }
+}
+
+@media (max-width:800px) {
+
+
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .rightsection {
+        width: 70%;
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+
+    nav {
+        position: sticky;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(4, 4, 63);
+        flex-direction: column;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+
+    }
+
+    .firstsection {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 50px 0px 50px 0px;
+
+    }
+
+    .firstsection .leftsection {
+        width: 100vw;
+    }
+
+    .leftsection {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    nav {
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .leftsection .button {
+        font-size: 15px;
+        margin: 15px 15px 0px 0px;
+
+    }
+
+    .secondsection h1 {
+        font-size: 1.5rem;
+    }
+
+    .lines {
+        margin: 40px;
+    }
+
+    .secondsection {
+        height: 100vh;
+
+    }
+
+    .image-top {
+        margin-top: 60px;
+        margin-left: -18px;
+
+    }
+
+
+    .secondsection .box {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .secondsection .vertical {
+        height: 180px;
+
+    }
+
+    .vertical-title {
+        top: -45px;
+        width: 150px;
+        left: 50px;
+    }
+
+    .vertical-desc {
+        top: -28px;
+        width: 180px;
+        left: 50px;
+    }
+
+    #contact-me {
+        font-size: 1.3rem;
+    }
+
+    input[type="submit"] {
+        font-size: 1rem;
+        width: 85px;
+    }
+
+    form {
+
+        width: 50%;
+    }
+
+    .forthsection {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        font-family: 'popins' sans-serif;
+        padding: 20px;
+    }
+    #services{
+        font-size: 1.3rem;
+    }
+
+    .paras {
+        padding: 10px 50px;
+        text-align: center;
+    }
+
+    .project {
+        width: 45%;
+
+    }
+
+    .icons {
+        width: 22px;
+        /* Adjust the size as needed */
+        height: 22px;
+        /* Adjust the size as needed */
+
+        margin: -8px 8px;
+    }
+
+    .footer {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 560px) {
+    nav ul li {
+        margin: 0 25px;
+    }
+
+    .leftsection .button {
+        font-size: 12px;
+        padding: 9px;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+    }
+    .secondsection {
+        height: 120vh;
+
+    }
+    .secondsection .box {
+        width: 50vw;
+    }
+    .paras{
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 470px) {
+    nav ul li {
+        margin: 0 14px;
+    }
+
+}
+@media (max-width: 400px) {
+    nav ul li {
+        margin: 0 14px;
+    }
+
+    .secondsection {
+        height: 130vh;
+    }
+}

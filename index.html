@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faddy's porttfolio</title>
+</head>
+<link rel="stylesheet" href="indexres.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css" <body>
+<header>
+    <nav>
+        <div class="left" onclick="reloadpage()">
+            Faddy's portfolio
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">contact Me</a></li>
+                <li><a href="#services">services</a></li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main>
+    <section id="Home" class="firstsection">
+        <div class="leftsection">
+            <div> Hi , My name is</div> <span class="purple">Faddy</span>
+            <div>and i am a passionate </div>
+            <span id="element"></span><br>
+            <button onclick="viewResume()" class="button"> VIEW RESUME </button>
+
+            <button onclick="redirectTolink()" class="button"> GITHUB </button>
+
+        </div>
+
+        <div class="rightsection">
+            <img class="web" src="./images/png.jpg" alt="">
+        </div>
+    </section>
+    <hr id="about" class="lines line1">
+    <section class="secondsection">
+        <span class="textgray">What i have done so far </span>
+        <h1><b>Experience .in </b></h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="./images/htmllogo.png">
+                <div class="vertical-title">HTML DEVELOPER<br>(2021 start - 2021 end)</div>
+                <div class="vertical-desc">HTML:
+                    "HTML, HyperText Markup Language, structures web content with tags like &lt;html&gt;,&lt;head&gt;,
+                    and &l;tbody&gt;. It's the backbone of web pages."
+
+
+                </div>
+            </div>
+            <div class="vertical"> <img class="image-top" src="./images/csslogo.png">
+                <div class="vertical-title">CSS DEVELOPER<br>(2022 start - 2022 end)</div>
+                <div class="vertical-desc"> CSS:
+                    "CSS, Cascading Style Sheets, styles HTML elements. It controls layout, colors, fonts, and more,
+                    making websites visually appealing and user-friendly."
+
+                </div>
+            </div>
+            <div class="vertical"> <img class="image-top" src="./images/js.jpg">
+                <div class="vertical-title">JS DEVELOPER<br>(2023 start-2023 end )</div>
+                <div class="vertical-desc"> JavaScript:
+                    "JavaScript, the programming language of the web, adds interactivity to web pages. It manipulates
+                    HTML and CSS, creating dynamic content and enhancing user experience."
+                </div>
+            </div>
+            <div class="vertical"> <img class="image-top" src="./images/nodejs.jpg">
+                <div class="vertical-title">NODE.js DEVELOPER<br>(Just start)</div>
+                <div class="vertical-desc"> Node.js:
+                    "Node.js is a server-side JavaScript runtime environment. It allows running JavaScript code outside
+                    the browser, enabling building scalable and high-performance web applications and APIs."
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="lines line2">
+    <section id="contact" class="thirdsection">
+        <form action="#" method="post">
+
+            <ul>
+                <h2 id="contact-me">Contact Me</h2>
+            </ul>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+        </form>
+        <input type="submit" value="Submit">
+
+    </section>
+
+
+    <hr class="lines line3">
+
+    <ul>
+        <h2 id="services">Services</h2>
+    </ul>
+    <section class="forthsection" id="services">
+
+        <img onclick="project()" src="./images/project.png" alt="laptop image" class="project">
+        <div class="paras">
+            <p class="sectionTag text-big">Transforming Education in India</p>
+            <p class="sectionSubTag text-small">Many public schools provide a free education through the
+                government.
+                Parents may send their own children to a private
+                schools, but they must pay for it. In some poorer places, some children cannot go to school,
+                because
+                their countries do
+                not make education available in their countries, or because their families do not have enough
+                money, or
+                because the
+                children have to work for money, or because the society have negative prejudice on education for
+                girls.The city of Alexandria in
+                Egypt, established in 330 BCE,became the successor to Athens as the intellectual cradle of Ancient
+                Greece.
+            </p>
+        </div>
+
+
+
+    </section>
+    <hr class="lines line4">
+
+</main>
+<footer id="services">
+    <center>
+        <div class="footer">
+            <img class="icons" src="./images/watsaplogo.gif" onclick="watsapp()">
+            faddysportfolio.com | All rights reserved
+            <img class="icons" src="./images/instalogo.gif" onclick="insta()">
+        </div>
+    </center>
+</footer>
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="index.js"></script>
+
+</html>
